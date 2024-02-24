@@ -3,7 +3,7 @@ const button = document.querySelector("button");
 const onClick = () => {
   const timerId = setTimeout(() => {
     console.log("I love async JS!");
-  }, 2000);
+  }, 5000);
 
   console.log(timerId);
   console.log("Wait for it");
